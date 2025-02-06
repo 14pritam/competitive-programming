@@ -1,9 +1,9 @@
-package CodeForce.Array;
+package CodeForce.CF1700_1799;
 
 import java.util.Scanner;
 
 // Link : https://codeforces.com/contest/1742/problem/D
-public class CoPrimeIndexSum {
+public class Problem_1742D{
     /*
     CoPrime : Co-prime numbers are two numbers that have only 1 as their common factor.
     In other words, their greatest common factor (GCD) is 1.

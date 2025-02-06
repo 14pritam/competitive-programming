@@ -1,4 +1,3 @@
-package CodeForce.Array;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 // https://codeforces.com/problemset/problem/2061/A
-public class KevinAndArithmetic {
+public class Problem_2061A {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
