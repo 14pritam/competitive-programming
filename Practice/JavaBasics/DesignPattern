@@ -1,0 +1,28 @@
+1. How Jira move from JSON to Protobuf save them 55% cost and 75% CPU?
+https://hw.glich.co/p/how-jira-saved-55-cost-and-75-cpu-by-moving-from-json-to-protobuf 
+
+Learn To use ProtoBuf :
+
+convert data into binary code then send over network after reaching their it Deserialization in Java.
+
+	•	Microservices Communication: Product Service sends Protobuf data to Order Service quickly.
+	•	Reduced Latency: During peak sales, Protobuf reduces communication time significantly.
+	•	Cross-Platform: Payment Service (in Go) can easily parse Protobuf messages sent by Product Service (in Java).
+	•	Future-Proof: Adding new features (like “discount”) doesn’t require updating all services at once.
+
+2. Scaling MemCached in FaceBook
+https://www.youtube.com/watch?v=uS8f5SSYDck
+
+MemCached - small Latency
+MemCached uses Cuckoo hashing and redis do not
+
+
+Redis 
+
+
+3. 
+
+
+
+
+

@@ -1,0 +1,20 @@
+package Practice.JavaBasics;
+
+
+public class InternalWorkingHashMap{
+public static class Node{
+ private int key;
+ private int value;
+ public Node(int key, int value){
+    this.key = key;
+    this.value = value;
+ }
+}
+
+private Node node;
+
+public static void contains(){
+    
+}
+
+}

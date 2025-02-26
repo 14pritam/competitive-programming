@@ -1,0 +1,190 @@
+1. Java : cross Platform OOP - inheritance, polymorphism , encapsulation , abstraction
+- run macOs , window , Linux
+- DRY (Don't repeat yourself and make Code eaiser to maintain modify debug)
+- Java is platform Independent : because of the Java Virtual Machine (JVM). 
+Java code is compiled into bytecode (not machine-specific code), and the JVM interprets this bytecode on any platform. As long as a device has a compatible JVM, Java programs can run on it without modification. This is often summarized as “Write Once, Run Anywhere.”
+
+WORA -  Write Once and Run Anywhere.
+:: Feature ::
+Memory Management , Security , MultiThreading , OOP
+
+2. Inheritance
+single , multiple , Hybrid , Hierarchical
+
+Multiple Inheritance no supported becoz of Diamond problem which cause complex and ambugity
+
+3. Polymorphism (Single action in diffirent ways)
+  Compile-Time Polymorphism (method OverLoading) and RunTime Polymorphism (method OverRiding)
+
+4. Encapsulation : restrict direct access to the object data
+5. Interface : contract [implements]
+- Another way to achive abstraction in Java, is with Interface. 
+- Can have both abstract methods (without implementation) and concrete methods (with implementation).
+interface A {
+	public void abc();
+}
+NOTE :  On implementation Override all methods
+interface cannot have a constructor.
+
+6. Abstract : Share Common feature (method) [extend]
+- Can have both abstract methods (without implementation) only 
+
+Important Details are displayed to user and user does'nt know how it works internally.
+
+abstract class demo{
+}
+
+---Today
+
+7. Super , this , static , default keyword
+
+Super : Used to access the parent class’s methods, constructors, or variables.
+
+this : Refers to the current instance of the class.
+
+static : 
+        1. class : A static class in Java is a nested static class, meaning a class declared inside another class with the static keyword.
+		2. method : Can be called without an object.
+		3. Static Block : Executes once when the class loads.
+		class Example {
+             static { System.out.println("Static Block"); }
+			 }
+
+
+8. String Pool 
+     
+
+is a relationship ::: -> inheritance
+
+has a relationship :  whenever object used in another class then it is called has a relationship.
+
+9. JIT , JVM , JRE
+
+	•	Use StringBuffer if your program is multi-threaded and needs safe string operations.
+	•	Use StringBuilder if your program is single-threaded and needs fast string manipulation.
+    
+	JVM (Java Virtual Machine) : doesn't exist physcially (abstract machine)
+	
+	Java Prgm --> compile -> ByteCode -> Interpreted -> JVM -> convert machince Code --> CPU --> OUTPUT
+
+	BECOZ of JVM we get portability
+
+	JVM have JIT compiler
+	JRE ()
+	JDK
+
+10. Heap Memory Managed by JVM.
+Static(Class) method
+------------------
+   1. Static method is associated with a class rather than an object.
+   2. Static methods can be called using the class name only without creating an instance of a class.
+   3. Static methods do not have access to this keyword.
+   4. Static methods can access only static members of the class.
+   5. Static methods cannot be overridden because they are resolved at compile time, not at run time. This means that the compiler   decides which method to call based on the reference type, not on the object type.
+
+Instance method
+---------------
+   1. The instance method is associated with an object rather than a class.
+   2. The instance methods can be called on a specific instance of a class using the object reference.
+   3. Instance methods have access to this keyword.
+   4. Instance methods can access both static and non-static methods of the class.
+   5. Instance methods can be overridden because they are resolved at run time, not at compile time. This means that the compiler decides which method to call based on the object type, not on the reference type.
+
+   The object is a real-life entity that has certain properties and methods associated with it. The object is also defined as the instance of a class. An object can be declared using a new keyword.
+
+Constructor
+-----------
+Constructor is a special method that is used to initialize objects. Constructor is called when a object is created. The name of constructor is same as of the class.
+
+Every time you create an object, a constructor is called automatically.
+
+If you don’t provide a constructor in a class in Java, the compiler automatically generates a default constructor with no arguments and no operation which is a default constructor.
+   1. Default Constructor
+   2. Parameterized Constructor
+
+	•	JVM: Executes Java programs.
+             Converts Java bytecode (from .class files) into machine code.
+		     Manages memory, garbage collection, and security.
+
+	•	JRE: Helps run Java programs (JVM + libraries).
+            
+	•	JIT: Boosts performance by converting bytecode to machine code at runtime.
+
+    The Java Development Kit (JDK) is used to develop Java applications, while the Java Runtime Environment (JRE) is used to run those applications. 
+
+
+Byte 
+-----
+byte	1 byte	-128 to 127
+int	    4 bytes
+long	8 bytes	
+float	4 bytes	
+double	8 bytes	
+char	2 bytes	
+boolean	1 byte*
+
+-----------
+Cache : 
+        In-Memory Cache : In memory of MicroService
+        Distributed Cache : Redis , Memcached
+
+
+Caching Strategies:
+	•	Read-Through Cache: Data is loaded into the cache on a read request.
+	•	Write-Through Cache: Data is written to the cache and database simultaneously.
+	•	Cache-Aside: Application manually adds/removes data from the cache.
+	•	Distributed Cache: Multiple services share the same cache instance.
+
+
+ JAR stands for Java Archive. It is a file format used to package multiple Java files and resources into a single compressed file with the .jar extension.
+
+ Purpose of a JAR File:
+	•	Combines multiple .class files (compiled Java files), images, libraries, and metadata into one file.
+	•	Makes it easier to distribute, deploy, and share Java applications or libraries.
+	•	Supports compression using the ZIP format, reducing file size.
+
+Why Use a JAR File?
+	•	Portability: Bundle all your Java code and resources in one place.
+	•	Ease of Deployment: Deploy a single .jar instead of multiple files.
+	•	Execution: Can be directly executed if it contains a Main-Class defined in the MANIFEST.MF file.
+	•	Reusability: Used as a library in other Java projects.
+
+Where are JAR Files Used? (For Info)
+	•	Java Libraries: Like spring-core.jar, mysql-connector.jar.
+	•	Microservices: Deployable units often packaged as JARs.
+	•	JavaFX/Swing Applications: Packaged into JARs for GUI applications.
+
+
+11. Java Memory Management and Garbage Collection
+12. Java Generic , Enum  , java Singleton and immutable
+
+
+
+13. Internal Working of HashMap 
+14. Collection in Java 
+15. MultiThreading , Concurrency , Thread JOining , Daemon Thread, Thread Priority , thread creation , thread LifeCycle
+16. Java ForkJoin & WorkStealing Pool
+17. Java Schedule Thread Pool Executator
+18. Exception Handling in Java
+19. Comparator vs Comparable
+---
+    first bruteForce then Optimize Solution
+
+Indexing
+Sharding
+Normalisation
+DeNormalisation
+
+
+
+WebSocket 
+
+
+Functional Interface 
+
+  
+Lambda Expression
+
+
+Streams in Java 8
+
