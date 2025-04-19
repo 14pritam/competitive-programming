@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Problem_1A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF0001_0099.Problem_1A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_1742D",
+            "request": "launch",
+            "mainClass": "CodeForce.CF1700_1799.Problem_1742D",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_2060A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF2000_2099.Problem_2060A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_2061A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF2000_2099.Problem_2061A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_2062A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF2000_2099.Problem_2062A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_2063A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF2000_2099.Problem_2063A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_2064A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF2000_2099.Problem_2064A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Problem_2069A",
+            "request": "launch",
+            "mainClass": "CodeForce.CF2000_2099.Problem_2069A",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "MergeOverlappingSubIntervals",
+            "request": "launch",
+            "mainClass": "Practice.Array.MergeOverlappingSubIntervals",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "MinimumJumps",
+            "request": "launch",
+            "mainClass": "Practice.Array.MinimumJumps",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "MissingInArray",
+            "request": "launch",
+            "mainClass": "Practice.Array.MissingInArray",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "NextPermutation",
+            "request": "launch",
+            "mainClass": "Practice.Array.NextPermutation",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "PascalTriangle",
+            "request": "launch",
+            "mainClass": "Practice.Array.PascalTriangle",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "Practice.Array.RotateArray",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "SetMatrixZeros",
+            "request": "launch",
+            "mainClass": "Practice.Array.SetMatrixZeros",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "Practice.Array.SpiralMatrix",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "StockBuyAndSell",
+            "request": "launch",
+            "mainClass": "Practice.Array.StockBuyAndSell",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "Practice.Array.TwoSum",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "kadaneAlgorithm",
+            "request": "launch",
+            "mainClass": "Practice.Array.kadaneAlgorithm",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "sortAnArray0s1s2s",
+            "request": "launch",
+            "mainClass": "Practice.Array.sortAnArray0s1s2s",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchProblem",
+            "request": "launch",
+            "mainClass": "Practice.BinarySearch.BinarySearchProblem",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Practice.DP.Fibonacci",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "Practice.GoldManSachsProblems.TrappingRainWater",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "Practice.Graph.Graph",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "DiffBtwNewIntAndIntValueof",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.DiffBtwNewIntAndIntValueof",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceVsAbstraction",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.InterfaceVsAbstraction",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "Java8",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.Java8",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "NullExample",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.NullExample",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "PrintMessageWithoutMain",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.PrintMessageWithoutMain",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "StaticClass",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.StaticClass",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "SuperClass",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.SuperClass",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "TrycatchQuestion",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.TrycatchQuestion",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "tryFInally",
+            "request": "launch",
+            "mainClass": "Practice.JavaBasics.tryFInally",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListProblem",
+            "request": "launch",
+            "mainClass": "Practice.LinkedList.LinkedListProblem",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "IndexOfSubArraySum",
+            "request": "launch",
+            "mainClass": "Practice.SlidingWindow.IndexOfSubArraySum",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumSubArray",
+            "request": "launch",
+            "mainClass": "Practice.SlidingWindow.MaxSumSubArray",
+            "projectName": "competitive-programming_b8b3b164"
+        }
+    ]
+}
