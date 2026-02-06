@@ -7,7 +7,7 @@ public class Graph {
     private int[][] adjMatrix;
     private int numVertices;
 
-    Graph(int numVertices){
+    public Graph(int numVertices){
         this.numVertices = numVertices;
         adjMatrix = new int[numVertices][numVertices];
     }

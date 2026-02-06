@@ -8,7 +8,7 @@ public class LongestPalindromeString {
     public  static void main(String[] args){
 
 
-        String str = "abacdfeesabase";
+        String str = "dbababdacd";
 
         String LSP = "";
 

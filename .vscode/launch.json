@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnionofArraysWithDuplicates",
+            "request": "launch",
+            "mainClass": "Practice.GeeksForGeeks.UnionofArraysWithDuplicates",
+            "projectName": "competitive-programming_b8b3b164"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
